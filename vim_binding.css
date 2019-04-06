@@ -1,24 +1,30 @@
-/* Improve command area of CodeMirror Vim */
 .CodeMirror-dialog-bottom {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  z-index: 100;
-  color: #eee;
-  background-color: #333;
+ position: absolute;
+ width: 100%;
+ bottom: 0;
+ z-index: 100;
+ background-color: #fdf6e3;
+ color: #586e75;
+ padding-right: 1.2em;
+ border: 0px;
+ border-top-left-radius: 0px;
+ border-top-right-radius: 2px;
+ border-bottom-left-radius: 0px;
+ border-bottom-right-radius: 0px;
 }
 .CodeMirror-dialog-bottom input {
-  border: none;
-  outline: none;
-  color: inherit;
-  background-color: inherit;
-  width: calc(100% - 1em);
+ border: none;
+ outline: none;
+ color: #586e75;
+ background-color: #fdf6e3;
+ width: calc(99%);
 }
-/* Jupyter cell is in normal mode when code mirror */
 .edit_mode .cell.selected .CodeMirror-focused.cm-fat-cursor {
-  background-color: #F5F6EB;
+ background-color: #fdf6e3;
+ color: #586e75;
 }
-/* Jupyter cell is in insert mode when code mirror */
 .edit_mode .cell.selected .CodeMirror-focused:not(.cm-fat-cursor) {
-  background-color: #F6EBF1;
+ background-color: #fdf6e3;
+ color: #586e75;
 }
+
